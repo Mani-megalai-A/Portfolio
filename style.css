@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins","sans-serif";
+}
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 13px 5px;
+    background-color: #0f0c27;
+    color: white;
+}
+.navbar {
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+    padding-top: 10px;
+}
+.logo{
+    font-size: 1.8rem;
+    margin-left: 25px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+ul a{
+    font-size: 1.1rem;
+}
